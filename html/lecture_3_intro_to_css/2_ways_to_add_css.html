@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- internal css -> document level-->
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+    <!-- extrenal css -> to multiple  -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- user agent stylesheet -> browser's default -->
+     <!-- inline styling -->
+    <h1 style="background-color: lightgrey;
+    ">I am h1</h1>
+    <h1>I am h1</h1>
+    <h1>I am h1</h1>
+    <h1>I am h1</h1>
+    <p>I am p</p>
+    <input type="text">
+
+</body>
+
+</html>
+
+
+<!-- user agent stylesheet ,
+  internal -> color, 
+  external  -> font-size,
+   inline -> bg-color-->
+
+`cascading`| precendece -> user agent stylesheet < internal=extrenal(latter take more precidence)< inline
+
+  

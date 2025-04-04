@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* sibling combinator */
+        .c3+.c2{
+            color: red;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="c1">
+        <div>
+            <p>I am p</p>
+        </div>
+    </div>
+    <div class="c1">
+        <div class="c3">
+            <p>color me red</p>
+        </div>
+        <div class="c2">
+            <p>color me red</p>
+        </div>
+        <div>
+        </div>
+    </div>
+    <div class="c3">
+        <div>
+            <p>I am p</p>
+        </div>
+    </div>
+</body>
+
+</html>
